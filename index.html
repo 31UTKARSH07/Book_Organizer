@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Organizer & Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📚 My Book Organizer</h1>
+        <input type="text" id="search-bar" placeholder="Search for books...">
+        <button id="search-btn">Search</button>
+    </header>
+    
+    <section id = "bookself">
+        <h2>My Library</h2>
+        <div class="shelf">
+            <h3>📖 Currently Reading</h3>
+            <div class="book-list" id="reading"></div>
+        </div>
+        <div class="shelf">
+            <h3>✅ Finished</h3>
+            <div class="book-list" id="finished"></div>
+        </div>
+        <div class="shelf">
+            <h3>📌 Want to Read</h3>
+            <div class="book-list" id="wishlist"></div>
+        </div>
+    </section>
+
+    <section id="progress">
+        <h2>Reading Progress</h2>
+        <div class="progress-container">
+            <span>Progress:</span>
+            <progress id="progress-bar" value="40" max="100"></progress>
+            <span id="progress-text">40%</span>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <h2>📌 Recommended for You</h2>
+        <div class="recommend-list"></div>
+    </section>
+
+    <script src = "script.js"></script>
+
+</body>
+</html>

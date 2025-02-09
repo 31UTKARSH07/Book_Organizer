@@ -1,0 +1,52 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #ff6363;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#search-bar {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.shelf {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#progress-bar {
+    width: 80%;
+    height: 15px;
+    border-radius: 10px;
+    background: #ff6363;
+}
+
+#recommendations {
+    background: #ffde59;
+    padding: 15px;
+    border-radius: 10px;
+}
